@@ -1,0 +1,107 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhx0wdjji22ve"]
+
+[ext_resource type="Texture2D" uid="uid://cs0mp00e58m0i" path="res://axeboy/images/use/图层 1.png" id="1_7queq"]
+[ext_resource type="Texture2D" uid="uid://c57q7q7i6eosg" path="res://axeboy/images/use/aadas.png" id="1_ipr5f"]
+[ext_resource type="FontFile" uid="uid://b3iwdk1s38qw8" path="res://axeboy/fonts/汉仪第五人格体.TTF" id="3_fnhna"]
+
+[node name="AxeboyEnergyCounter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(576.42, 326.165)
+
+[node name="EnergyVfxBack" type="Node2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-3, 1)
+
+[node name="Layers" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Layer1" type="TextureRect" parent="Layers"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -78.0
+offset_top = -78.0
+offset_right = 78.0
+offset_bottom = 78.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(77, 77)
+texture = ExtResource("1_ipr5f")
+
+[node name="RotationLayers" type="Control" parent="Layers"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Layers/RotationLayers"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -65.0
+offset_right = 65.0
+offset_bottom = 65.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(64.32, 65.09)
+texture = ExtResource("1_7queq")
+
+[node name="EnergyVfxFront" type="Node2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-3, 2)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -53.155556
+offset_top = -46.0
+offset_right = 53.155556
+offset_bottom = 46.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(53.09, 53)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 16
+theme_override_constants/shadow_outline_size = 16
+theme_override_fonts/font = ExtResource("3_fnhna")
+theme_override_font_sizes/font_size = 61
+text = "3/3"
+horizontal_alignment = 1
+vertical_alignment = 1

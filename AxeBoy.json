@@ -1,0 +1,11 @@
+{
+  "id": "axeboy",         
+  "name": "罗比·怀特",
+  "author": "硬币落地无声",
+  "description": "新增人物第五人格爱哭鬼",
+  "version": "1.0.0",
+  "has_pck": true,       
+  "has_dll": true,        
+  "dependencies": ["BaseLib"],     
+  "affects_gameplay": true 
+}

@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwynj87qtth7"]
+
+[ext_resource type="Texture2D" uid="uid://bvnpjh4a4fm3a" path="res://axeboy/images/use/90px-涂鸦_爱哭鬼-纪念日蛋糕_图标.png" id="1_0iq3c"]
+
+[node name="AxeboyIcon" type="TextureRect"]
+anchors_preset = -1
+anchor_left = 0.24400002
+anchor_top = 0.045
+anchor_right = 0.75600004
+anchor_bottom = 0.95500004
+offset_left = -0.088012695
+offset_top = -0.16000175
+offset_right = 0.08795166
+offset_bottom = 0.15997314
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_0iq3c")

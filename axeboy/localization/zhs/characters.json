@@ -1,0 +1,18 @@
+{
+
+  "AXE_BOY_CHARACTER.aromaPrinciple": "[sine]对不起……我没哭，我只是想到了姐姐，她以前总爱读故事给我听……[/sine]",
+  "AXE_BOY_CHARACTER.banter.alive.endTurnPing": "如果你见到我姐姐，请告诉她罗比很好而且一直在等她。",
+  "AXE_BOY_CHARACTER.banter.dead.endTurnPing": "……",
+  "AXE_BOY_CHARACTER.cardsModifierDescription": "罗比·怀特的卡牌现在会出现在奖励和商店中。",
+  "AXE_BOY_CHARACTER.cardsModifierTitle": "罗比·怀特的卡牌",
+  "AXE_BOY_CHARACTER.description": "[gold]罗比[/gold]弄丢了自己的脑袋，这个爱哭的倒霉蛋只好拿起斧头，重复起他最擅长的事情。",
+  "AXE_BOY_CHARACTER.eventDeathPrevention": "后来……罗比记不清了，罗比醒了，在杜松树下醒了。",
+  "AXE_BOY_CHARACTER.goldMonologue": "[sine]给我一块巧克力的话，我会高兴哦[/sine]",
+  "AXE_BOY_CHARACTER.possessiveAdjective": "他的",
+  "AXE_BOY_CHARACTER.pronounObject": "他",
+  "AXE_BOY_CHARACTER.pronounPossessive": "他的",
+  "AXE_BOY_CHARACTER.pronounSubject": "他",
+  "AXE_BOY_CHARACTER.title": "罗比·怀特",
+  "AXE_BOY_CHARACTER.titleObject": "罗比·怀特",
+  "AXE_BOY_CHARACTER.unlockText": "用[pink]{Prerequisite}[/pink]进行一局游戏来解锁这个角色。"
+}
